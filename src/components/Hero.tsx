@@ -1,4 +1,5 @@
 import { ChevronDown } from 'lucide-react';
+import signatureRoseDrink from '@/assets/signature_rose_drink.png';
 
 export default function Hero() {
   return (
@@ -34,13 +35,13 @@ export default function Hero() {
 
         {/* Right Image */}
         <div className="flex-1 relative w-full flex justify-center md:justify-end">
-          {/* Decorative floating elements (simulated with emojis/shapes for now, or just focus on central image) */}
+          {/* Decorative floating elements */}
           <div className="relative w-72 h-72 md:w-[500px] md:h-[500px]">
-            {/* Using a beautiful high-res drink image. Rounded to blend nicely if not perfectly isolated. */}
+            {/* Using a beautiful high-res drink image. Rounded to blend nicely. */}
             <img 
-              src="https://images.unsplash.com/photo-1536281140929-2caec26e0657?q=80&w=1000&auto=format&fit=crop" 
-              alt="Refreshing Iced Matcha" 
-              className="w-full h-full object-cover object-center rounded-full shadow-2xl ring-8 ring-white/50 animate-[pulse_6s_ease-in-out_infinite] mix-blend-multiply" 
+              src={signatureRoseDrink} 
+              alt="Signature Rose Drink" 
+              className="w-full h-full object-cover object-center rounded-full shadow-2xl ring-8 ring-white/50 animate-[pulse_6s_ease-in-out_infinite]" 
               style={{ filter: 'drop-shadow(0 20px 30px rgba(0,0,0,0.15))' }}
             />
           </div>
