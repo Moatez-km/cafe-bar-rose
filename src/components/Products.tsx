@@ -34,7 +34,7 @@ export default function Products() {
   const filtered = activeTab === 'Alle' ? products : products.filter(p => p.category === activeTab);
 
   return (
-    <section className="bg-white py-16 px-4">
+    <section id="products" className="bg-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold text-primary uppercase mb-6 tracking-tight">

@@ -12,13 +12,10 @@ export default function Header() {
 
         {/* Navigation - Hidden on mobile */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-text-muted">
-          <a href="#" className="hover:text-primary transition-colors">Menü</a>
-          <a href="#" className="hover:text-primary transition-colors">Getränke</a>
-          <a href="#" className="hover:text-primary transition-colors">Zutaten</a>
-          <a href="#" className="hover:text-primary transition-colors">Vorteile</a>
-          <a href="#" className="hover:text-primary transition-colors">Lieferung</a>
-          <a href="#" className="hover:text-primary transition-colors">Bewertungen</a>
-          <a href="#" className="hover:text-primary transition-colors">Kontakt</a>
+          <a href="#products" className="hover:text-primary transition-colors">Speisekarte</a>
+          <a href="#reservation" className="hover:text-primary transition-colors">Reservation</a>
+          <a href="#about-us" className="hover:text-primary transition-colors">Über uns</a>
+          <a href="#contact" className="hover:text-primary transition-colors">Kontakt</a>
         </nav>
 
         {/* Contact info & Reservation button */}
