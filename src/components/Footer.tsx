@@ -91,14 +91,12 @@ export default function Footer() {
           <div className="space-y-2.5 text-xs font-medium">
             <div className="flex items-start gap-2.5">
               <Clock className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="text-white">Freitag - Sonntag</p>
-                <p className="text-pink-200/50 mt-0.5">ab 10:30 Uhr geöffnet</p>
+              <div className="space-y-2 text-pink-200/60">
+                <p><span className="text-white font-bold">Fr. & Sa.:</span><br />10:30 – 22:00 Uhr</p>
+                <p><span className="text-white font-bold">Di. – Do. & So.:</span><br />10:30 – 20:00 Uhr</p>
+                <p><span className="text-white font-bold">Montag:</span><br />Geschlossen</p>
               </div>
             </div>
-            <p className="text-[10px] text-pink-200/40 italic mt-2">
-              * Ruhetage und saisonale Zeiten entnehmen Sie bitte dem Aushang vor Ort.
-            </p>
           </div>
         </div>
 

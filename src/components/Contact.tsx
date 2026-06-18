@@ -56,8 +56,9 @@ export default function Contact() {
               </div>
               <div className="text-sm font-medium">
                 <p className="text-text-main font-bold">Öffnungszeiten</p>
-                <p className="text-text-muted mt-0.5">Fr. ab 10:30 Uhr geöffnet</p>
-                <p className="text-text-muted">Ruhetage laut Aushang vor Ort</p>
+                <p className="text-text-muted mt-0.5">Fr. & Sa.: 10:30 – 22:00 Uhr</p>
+                <p className="text-text-muted">Di. – Do. & So.: 10:30 – 20:00 Uhr</p>
+                <p className="text-text-muted">Montag: Geschlossen</p>
               </div>
             </div>
 
