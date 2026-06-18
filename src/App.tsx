@@ -10,6 +10,7 @@ import Products from './components/Products';
 import Reservation from './components/Reservation';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <AboutUs />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }
