@@ -64,20 +64,23 @@ export default function Products() {
                 <img 
                   src={product.img} 
                   alt={product.name}
-                  className="w-full h-full object-cover rounded-full mix-blend-multiply"
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
               
               <h3 className="font-bold text-lg text-text-main mb-3">{product.name}</h3>
-              <p className="text-xs text-text-muted mb-6 leading-relaxed max-w-[250px]">
+              <p className="text-xs text-text-muted leading-relaxed max-w-[250px]">
                 {product.desc}
               </p>
-              
-              <button className="w-48 py-3 rounded-full bg-primary text-white font-bold tracking-wide hover:bg-primary-hover shadow-lg shadow-primary/20 transition-all active:scale-95">
-                Menü ansehen
-              </button>
             </div>
           ))}
+        </div>
+
+        {/* Centered Menu button */}
+        <div className="flex justify-center mt-6">
+          <button className="bg-primary hover:bg-primary-hover text-white px-10 py-4 rounded-full font-bold shadow-lg shadow-primary/30 transition-all hover:scale-105 active:scale-95 cursor-pointer">
+            Menü ansehen
+          </button>
         </div>
       </div>
     </section>
