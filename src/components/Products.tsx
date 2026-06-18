@@ -73,12 +73,8 @@ export default function Products() {
                 {product.desc}
               </p>
               
-              <div className="text-2xl font-extrabold text-text-main mb-6">
-                {product.price}
-              </div>
-              
               <button className="w-48 py-3 rounded-full bg-primary text-white font-bold tracking-wide hover:bg-primary-hover shadow-lg shadow-primary/20 transition-all active:scale-95">
-                Add to Cart
+                View the Menu
               </button>
             </div>
           ))}
