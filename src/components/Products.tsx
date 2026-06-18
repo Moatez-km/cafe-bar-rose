@@ -7,7 +7,7 @@ const products = [
     category: "Matcha",
     desc: "Refreshing strawberry puree layered with premium organic matcha and oat milk.",
     price: "$5.50",
-    img: "https://images.unsplash.com/photo-1589733955437-068d0e53a2eb?q=80&w=600&auto=format&fit=crop"
+    img: "/iced-strawberry-matcha-.webp"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const products = [
     category: "Coffee",
     desc: "Smooth espresso over ice with creamy whole milk and a touch of vanilla syrup.",
     price: "$4.50",
-    img: "https://images.unsplash.com/photo-1461023058943-07cb14a60128?q=80&w=600&auto=format&fit=crop"
+    img: "/iced latte.png"
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const products = [
     category: "Tea",
     desc: "Tropical mango nectar shaken with iced green tea for a light, refreshing lift.",
     price: "$5.00",
-    img: "https://images.unsplash.com/photo-1622485600868-b76e27b4e9f7?q=80&w=600&auto=format&fit=crop"
+    img: "/MANGO-TEA.webp"
   }
 ];
 
