@@ -7,7 +7,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2 text-primary font-bold text-xl tracking-tight">
           <CupSoda className="w-6 h-6 stroke-[2.5]" />
-          <span className="leading-none">FRESH<br/>SIPS</span>
+          <span className="leading-none text-nowrap">Café & Bar Rosé</span>
         </div>
 
         {/* Navigation - Hidden on mobile */}
