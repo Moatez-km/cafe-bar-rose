@@ -8,6 +8,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Products from './components/Products';
 import Reservation from './components/Reservation';
+import AboutUs from './components/AboutUs';
 import FooterCTA from './components/FooterCTA';
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Features />
         <Products />
         <Reservation />
+        <AboutUs />
       </main>
       <FooterCTA />
     </div>
