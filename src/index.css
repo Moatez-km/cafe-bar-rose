@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #CA0F4D;
+  --color-primary-hover: #AB0A3E;
+  --color-light-pink: #FFF0F3;
+  --color-text-main: #2E2E2E;
+  --color-text-muted: #7A7A7A;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  color: var(--color-text-main);
+  background-color: white;
+}

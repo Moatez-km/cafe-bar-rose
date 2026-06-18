@@ -1,0 +1,8 @@
+{
+  "name": "Fresh Sips",
+  "description": "A vibrant and refreshing healthy drink shop interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
