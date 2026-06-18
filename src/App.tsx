@@ -9,7 +9,7 @@ import Features from './components/Features';
 import Products from './components/Products';
 import Reservation from './components/Reservation';
 import AboutUs from './components/AboutUs';
-import FooterCTA from './components/FooterCTA';
+import Contact from './components/Contact';
 
 export default function App() {
   return (
@@ -21,8 +21,8 @@ export default function App() {
         <Products />
         <Reservation />
         <AboutUs />
+        <Contact />
       </main>
-      <FooterCTA />
     </div>
   );
 }
