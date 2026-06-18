@@ -16,20 +16,20 @@ export default function Hero() {
         {/* Left Content */}
         <div className="flex-1 text-center md:text-left mb-12 md:mb-0">
           <h1 className="text-4xl md:text-6xl font-extrabold text-primary uppercase leading-[1.1] tracking-tight mb-4">
-            The Most<br />
-            Refreshing Drinks
+            Die erfrischendsten<br />
+            Getränke
           </h1>
           <div className="flex items-center justify-center md:justify-start gap-2 mb-6 text-text-muted text-lg font-medium">
-            <span>in your city</span>
+            <span>in Ihrer Stadt</span>
             <ChevronDown className="w-5 h-5 text-primary" />
           </div>
           
           <p className="text-text-main max-w-md mx-auto md:mx-0 mb-10 text-base leading-relaxed">
-            If you love a healthy lifestyle, but can't resist a delicious and vibrant beverage — our drink menu is made just for you!
+            Wenn Sie einen gesunden Lebensstil lieben, aber einem köstlichen und lebendigen Getränk nicht widerstehen können – ist unsere Getränkekarte genau für Sie gemacht!
           </p>
           
           <button className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-primary/30 transition-all hover:scale-105 active:scale-95">
-            View the Menu
+            Menü ansehen
           </button>
         </div>
 

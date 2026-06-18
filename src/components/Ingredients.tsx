@@ -10,11 +10,11 @@ export default function Ingredients() {
 
       <div className="max-w-6xl mx-auto px-4 relative z-10 text-center">
         <h2 className="text-2xl md:text-4xl font-extrabold text-primary uppercase mb-4 tracking-tight">
-          The Secret of Our Drinks<br className="hidden md:block"/> in Natural Ingredients
+          Das Geheimnis unserer Getränke<br className="hidden md:block"/> liegt in natürlichen Zutaten
         </h2>
         <p className="text-text-muted font-medium mb-16 md:mb-24">
-          • We use only high-quality fresh ingredients<br/>
-          • Real fruit purees, never artificial syrups
+          • Wir verwenden nur hochwertige, frische Zutaten<br/>
+          • Echtes Fruchtpüree, niemals künstliche Sirupe
         </p>
 
         <div className="relative flex flex-col md:flex-row items-center justify-center min-h-[500px]">
@@ -31,24 +31,24 @@ export default function Ingredients() {
           {/* Left Labels */}
           <div className="relative z-10 w-full md:absolute md:left-[10%] flex flex-col gap-12 text-left md:w-1/3 mt-64 md:mt-0 px-4 md:px-0">
              <div className="bg-white/80 backdrop-blur-md p-4 rounded-xl shadow-sm">
-                <h4 className="font-bold text-sm text-primary mb-1">Premium Matcha</h4>
-                <p className="text-xs text-text-muted">Ceremonial grade from Japan for vibrant color and energy.</p>
+                <h4 className="font-bold text-sm text-primary mb-1">Premium-Matcha</h4>
+                <p className="text-xs text-text-muted">Zeremonieller Grad aus Japan für lebendige Farbe und Energie.</p>
              </div>
              <div className="bg-white/80 backdrop-blur-md p-4 rounded-xl shadow-sm">
-                <h4 className="font-bold text-sm text-primary mb-1">Fresh Fruit Puree</h4>
-                <p className="text-xs text-text-muted">Muddled daily in-house for authentic, bright flavors.</p>
+                <h4 className="font-bold text-sm text-primary mb-1">Frisches Fruchtpüree</h4>
+                <p className="text-xs text-text-muted">Täglich frisch im Haus zubereitet für authentische Aromen.</p>
              </div>
           </div>
 
           {/* Right Labels */}
           <div className="relative z-10 w-full md:absolute md:right-[10%] flex flex-col gap-12 text-left md:text-right mt-12 md:mt-0 md:w-1/3 px-4 md:px-0">
              <div className="bg-white/80 backdrop-blur-md p-4 rounded-xl shadow-sm">
-                <h4 className="font-bold text-sm text-primary mb-1">Plant-Based Milks</h4>
-                <p className="text-xs text-text-muted">Creamy oat, almond, or soy perfectly paired with espresso.</p>
+                <h4 className="font-bold text-sm text-primary mb-1">Pflanzenmilch</h4>
+                <p className="text-xs text-text-muted">Cremiger Hafer-, Mandel- oder Sojadrink, perfekt abgestimmt auf Espresso.</p>
              </div>
              <div className="bg-white/80 backdrop-blur-md p-4 rounded-xl shadow-sm">
-                <h4 className="font-bold text-sm text-primary mb-1">Raw Agave</h4>
-                <p className="text-xs text-text-muted">Lightly sweetened with low-glycemic natural nectar.</p>
+                <h4 className="font-bold text-sm text-primary mb-1">Rohe Agave</h4>
+                <p className="text-xs text-text-muted">Leicht gesüßt mit natürlichem Nektar mit niedrigem glykämischen Index.</p>
              </div>
           </div>
 

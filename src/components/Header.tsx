@@ -12,13 +12,13 @@ export default function Header() {
 
         {/* Navigation - Hidden on mobile */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-text-muted">
-          <a href="#" className="hover:text-primary transition-colors">Menu</a>
-          <a href="#" className="hover:text-primary transition-colors">Drinks</a>
-          <a href="#" className="hover:text-primary transition-colors">Ingredients</a>
-          <a href="#" className="hover:text-primary transition-colors">Benefits</a>
-          <a href="#" className="hover:text-primary transition-colors">Delivery</a>
-          <a href="#" className="hover:text-primary transition-colors">Reviews</a>
-          <a href="#" className="hover:text-primary transition-colors">Contacts</a>
+          <a href="#" className="hover:text-primary transition-colors">Menü</a>
+          <a href="#" className="hover:text-primary transition-colors">Getränke</a>
+          <a href="#" className="hover:text-primary transition-colors">Zutaten</a>
+          <a href="#" className="hover:text-primary transition-colors">Vorteile</a>
+          <a href="#" className="hover:text-primary transition-colors">Lieferung</a>
+          <a href="#" className="hover:text-primary transition-colors">Bewertungen</a>
+          <a href="#" className="hover:text-primary transition-colors">Kontakt</a>
         </nav>
 
         {/* Contact info */}
@@ -27,7 +27,7 @@ export default function Header() {
             <Phone className="w-4 h-4 md:hidden text-primary" />
             <span className="hidden md:inline">8 800 234-54-34</span>
           </a>
-          <span className="text-xs text-text-muted hidden md:inline">Call us toll-free</span>
+          <span className="text-xs text-text-muted hidden md:inline">Rufen Sie uns gebührenfrei an</span>
         </div>
       </div>
     </header>

@@ -4,18 +4,18 @@ export default function Features() {
   const features = [
     {
       icon: <Leaf className="w-8 h-8 text-primary" />,
-      title: "Ideal for a",
-      subtitle: "healthy diet"
+      title: "Ideal für eine",
+      subtitle: "gesunde Ernährung"
     },
     {
       icon: <Flame className="w-8 h-8 text-primary" />,
-      title: "Low calorie",
-      subtitle: "and nutritious"
+      title: "Kalorienarm",
+      subtitle: "und nahrhaft"
     },
     {
       icon: <Droplets className="w-8 h-8 text-primary" />,
-      title: "No dairy fat",
-      subtitle: "plant-based options"
+      title: "Ohne Milchfett",
+      subtitle: "pflanzliche Optionen"
     }
   ];
 

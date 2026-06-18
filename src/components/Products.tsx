@@ -5,40 +5,40 @@ const products = [
     id: 1,
     name: "Iced Strawberry Matcha",
     category: "Matcha",
-    desc: "Refreshing strawberry puree layered with premium organic matcha and oat milk.",
+    desc: "Erfrischendes Erdbeerpüree geschichtet mit feinstem Bio-Matcha und Hafermilch.",
     price: "$5.50",
     img: "/iced-strawberry-matcha-.webp"
   },
   {
     id: 2,
     name: "Classic Iced Latte",
-    category: "Coffee",
-    desc: "Smooth espresso over ice with creamy whole milk and a touch of vanilla syrup.",
+    category: "Kaffee",
+    desc: "Milder Espresso auf Eis mit cremiger Vollmilch und einer Note Vanillesirup.",
     price: "$4.50",
     img: "/iced latte.png"
   },
   {
     id: 3,
     name: "Mango Green Tea",
-    category: "Tea",
-    desc: "Tropical mango nectar shaken with iced green tea for a light, refreshing lift.",
+    category: "Tee",
+    desc: "Tropischer Mangonektar geschüttelt mit Eistee (Grüntee) für einen leichten, erfrischenden Kick.",
     price: "$5.00",
     img: "/MANGO-TEA.webp"
   }
 ];
 
 export default function Products() {
-  const [activeTab, setActiveTab] = useState('All');
-  const tabs = ['All', 'Matcha', 'Coffee', 'Tea'];
+  const [activeTab, setActiveTab] = useState('Alle');
+  const tabs = ['Alle', 'Matcha', 'Kaffee', 'Tee'];
 
-  const filtered = activeTab === 'All' ? products : products.filter(p => p.category === activeTab);
+  const filtered = activeTab === 'Alle' ? products : products.filter(p => p.category === activeTab);
 
   return (
     <section className="bg-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold text-primary uppercase mb-6 tracking-tight">
-            Just look at these drinks
+            Werfen Sie einen Blick auf diese Getränke
           </h2>
           
           <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm font-bold border-b border-gray-100 pb-4">
@@ -74,7 +74,7 @@ export default function Products() {
               </p>
               
               <button className="w-48 py-3 rounded-full bg-primary text-white font-bold tracking-wide hover:bg-primary-hover shadow-lg shadow-primary/20 transition-all active:scale-95">
-                View the Menu
+                Menü ansehen
               </button>
             </div>
           ))}
