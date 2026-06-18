@@ -28,9 +28,14 @@ export default function Hero() {
             Wenn Sie einen gesunden Lebensstil lieben, aber einem köstlichen und lebendigen Getränk nicht widerstehen können – ist unsere Getränkekarte genau für Sie gemacht!
           </p>
           
-          <button className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-primary/30 transition-all hover:scale-105 active:scale-95">
-            Menü ansehen
-          </button>
+          <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
+            <button className="w-full sm:w-auto bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-primary/30 transition-all hover:scale-105 active:scale-95 text-nowrap">
+              Menü ansehen
+            </button>
+            <button className="w-full sm:w-auto bg-white hover:bg-gray-50 text-primary border border-primary/20 px-8 py-4 rounded-full font-bold shadow-md transition-all hover:scale-105 active:scale-95 text-nowrap">
+              Tisch reservieren
+            </button>
+          </div>
         </div>
 
         {/* Right Image */}
